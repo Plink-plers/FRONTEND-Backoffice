@@ -1,4 +1,4 @@
-# Plink_FE
+# Plink_FE_Backoffice
 
 🔗 창업과 투자를 연결하는 가장 빠른 연결고리, Plink
 
