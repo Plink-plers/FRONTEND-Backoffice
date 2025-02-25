@@ -2,11 +2,19 @@
 
 "use client";
 
+import Pagination from "@/shared/Pagination";
+
 export default function Approval(){
 
     return(
         <>
             PT 심사 페이지 :)
+            <Pagination 
+                current_page={3} 
+                total_page={10}
+
+                onPageChange = {()=>console.log('click!')}
+            />
         </>
     )
 }

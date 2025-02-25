@@ -2,6 +2,8 @@
 
 "use client";
 
+import Pagination from "@/shared/Pagination";
+
 export default function Login(){
 
     return(
