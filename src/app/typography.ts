@@ -11,13 +11,21 @@ export const Headline1=styled.p`
 
 export const Title1 = styled.p`
     font-family: Pretendard;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+`;
+
+export const Title2 = styled.p`
+    font-family: Pretendard;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 `;
 
-export const Title2 = styled.p`
+export const Title3 = styled.p`
     font-family: Pretendard;
     font-size: 2.5rem;
     font-style: normal;
@@ -25,7 +33,7 @@ export const Title2 = styled.p`
     line-height: normal;
 `;
 
-export const Title3 = styled.p`
+export const Title4 = styled.p`
     font-family: Pretendard;
     font-size: 2.25rem;
     font-style: normal;
@@ -33,17 +41,9 @@ export const Title3 = styled.p`
     line-height: normal;
 `;
 
-export const Title4 = styled.p`
-    font-family: Pretendard;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-`;
-
 export const Title5 = styled.p`
     font-family: Pretendard;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -51,7 +51,7 @@ export const Title5 = styled.p`
 
 export const Title6 = styled.p`
     font-family: Pretendard;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -59,13 +59,21 @@ export const Title6 = styled.p`
 
 export const Title7 = styled.p`
     font-family: Pretendard;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+`;
+
+export const Title8 = styled.p`
+    font-family: Pretendard;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 `;
 
-export const Title8 = styled.p`
+export const Title9 = styled.p`
     font-family: Pretendard;
     font-size: 1.25rem;
     font-style: normal;
@@ -152,15 +160,15 @@ export const Caption2 = styled.p`
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 130%;
 `;
 
 export const Caption3 = styled.p`
     font-family: Pretendard;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 130%; /* 0.975rem */
 `;
 
 export const Caption4 = styled.p`
@@ -185,6 +193,14 @@ export const Caption6 = styled.p`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+`;
+
+export const Caption7 = styled.p`
+    font-family: Pretendard;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 1.1375rem */
 `;
 
 export const Label1 = styled.p`
@@ -213,10 +229,10 @@ export const Button1 = styled.p`
 
 export const Button2 = styled.p`
     font-family: Pretendard;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 130%; /* 1.3rem */
 `;
 
 export const Button3 = styled.p`
@@ -231,6 +247,6 @@ export const Button4 = styled.p`
     font-family: Pretendard;
     font-size: 0.875rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
 `;
