@@ -46,7 +46,8 @@ export const Title5 = styled.p`
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 130%; /* 1.95rem */
+    letter-spacing: -0.03rem;
 `;
 
 export const Title6 = styled.p`

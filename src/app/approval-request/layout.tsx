@@ -1,4 +1,5 @@
 import Gnb from "@/shared/Gnb";
+import TabMenu from "@/shared/TabMenu";
 import { ReactNode } from "react";
 
 export default function LoginLayout({ children }: { children: ReactNode }) {
@@ -6,6 +7,7 @@ export default function LoginLayout({ children }: { children: ReactNode }) {
     <div>
       {/* 8. [관리자]PT 심사 페이지 - 프레젠테이션 승인 요청 탭 */}
       <Gnb />
+      <TabMenu />
       {children}
     </div>
   )
