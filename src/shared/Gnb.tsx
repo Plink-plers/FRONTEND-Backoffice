@@ -34,6 +34,7 @@ const Container = styled.div`
     align-items: center;
     
     padding: 1rem 5rem;
+    margin-bottom: 3rem;
     width: 100%;
 `;
 
@@ -51,12 +52,6 @@ const NavigationArea = styled.div`
     gap: 2.5rem;
 `;
 
-const ButtonArea = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
-`;
 
 const Button = styled.button`
     cursor: pointer;

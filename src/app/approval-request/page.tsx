@@ -2,19 +2,14 @@
 
 "use client";
 
+import Dashboard from "@/shared/Dashboard";
 import Pagination from "@/shared/Pagination";
 
-export default function Approval(){
+export default function Approval() {
 
-    return(
+    return (
         <>
-            PT 심사 페이지 :)
-            <Pagination 
-                current_page={3} 
-                total_page={10}
-
-                onPageChange = {()=>console.log('click!')}
-            />
+            <Dashboard selectedTab={"프레젠테이션 승인 요청"} />
         </>
     )
 }
