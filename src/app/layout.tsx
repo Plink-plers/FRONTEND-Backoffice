@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import {LandingHeader} from './TestCode';
+import Gnb from "@/shared/Gnb";
+import Footer from "@/shared/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,8 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <LandingHeader>디자인 시스템</LandingHeader>
+        <Gnb />
         {children}
+        <Footer />
       </body>
     </html>
   );
